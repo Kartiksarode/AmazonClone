@@ -14,7 +14,21 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.box {
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: dodgerblue;
+  
+  transition: all 0.3s ease-in-out; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
 
+.box:hover {
+  padding: 5px;
+
+  transform: translate(20px, 10px); 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+}
 .nav-logo {
   height: 50px;
   width: 115px;
